@@ -26,12 +26,13 @@ function loadImg (people) {
         })
         grid.appendChild(imageNodes[i]);
       }
-    })
+    });
 }
 
 function removeImages() {
   grid.innerHTML = '';
 }
+
 function dayNightMode() {
   const date = new Date();
   const hour = date.getHours();
