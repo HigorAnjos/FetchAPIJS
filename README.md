@@ -7,5 +7,6 @@
  - Promises
  - Functions
  - Fetch
+ - Array destructuring
 
 ## [GitHub pages 😄](https://higoranjos.github.io/FetchAPIJS/)
