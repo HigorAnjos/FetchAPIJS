@@ -8,4 +8,4 @@
  - Functions
  - Fetch
 
-## [GitHub pages](https://higoranjos.github.io/FetchAPIJS/)
+## [GitHub pages 😄](https://higoranjos.github.io/FetchAPIJS/)
