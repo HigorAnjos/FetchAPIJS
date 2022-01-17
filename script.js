@@ -32,7 +32,6 @@ function loadImg (people) {
 function removeImages() {
   grid.innerHTML = '';
 }
-
 function dayNightMode() {
   const date = new Date();
   const hour = date.getHours();
