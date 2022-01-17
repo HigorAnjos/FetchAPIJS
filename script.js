@@ -20,7 +20,7 @@ function loadImg (people) {
       for (let i = 0; i < data.photos.length; i++) {
         imageNodes[i]  = document.createElement('div');
         imageNodes[i].className = 'img';
-        imageNodes[i].style.backgroundImage = 'url('+data.photos[i].src.original+')';
+        imageNodes[i].style.backgroundImage = 'url('+data.photos[i].src.medium+')';
         imageNodes[i].addEventListener('dblclick', () => {
           window.open(data.photos[i].src.original, '_blank');
         })
