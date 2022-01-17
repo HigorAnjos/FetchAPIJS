@@ -5,9 +5,9 @@ input.addEventListener('keydown', function(event) {
   if(event.key === 'Enter') loadImg();
 });
 
-function loadImg () {
+function loadImg (people) {
   removeImages();
-  const url = `https://api.pexels.com/v1/search?query=${input.value}?page=2&per_page=40`;
+  const url = `https://api.pexels.com/v1/search?query=${input.value || people}?page=2&per_page=40`;
   fetch(url)
     .then((response) => {
       if (response.ok) {
@@ -47,3 +47,7 @@ function dayNightMode() {
 }
 
 window.addEventListener('load', dayNightMode);
+
+window.onload = () => {
+  loadImg('people');
+}
