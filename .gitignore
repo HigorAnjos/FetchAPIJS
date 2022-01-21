@@ -1,5 +1,22 @@
 # public
+<<<<<<< HEAD
+public/js/keyAPI.js
+public/js/favorites.js
+public/js/main.js
+public/js/pixelsAPI.js
+public/js/pixelsView.js
+
+=======
 public/keyAPI.js
+<<<<<<< HEAD
+>>>>>>> parent of 639c1f9... infinit
+=======
+public/js/favorites.js
+public/js/main.js
+public/js/pixelsAPI.js
+public/js/pixelsView.js
+
+>>>>>>> 639c1f99106df1da0da999379cc5f85f5ca6ab0e
 
 
 # Logs
