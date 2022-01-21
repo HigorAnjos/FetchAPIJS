@@ -69,6 +69,7 @@ input:focus {
 }
 
 .grid {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -76,8 +77,12 @@ input:focus {
 }
 
 .img {
+  width: 200px;
+  height: 380px;
   margin: 5px;
-
+  background-position: 50% 50%;
+  background-size: 200px;
+  background-repeat: no-repeat;
 }
 
 footer {
