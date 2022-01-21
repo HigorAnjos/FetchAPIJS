@@ -1,7 +1,6 @@
-import YOU_KEY_API from "./keyAPI.js"
+import YOU_KEY_API from "./key.js"
 //import pixelsView from "./pixelsView.js";
 
-// pixelsView.setImages();
 
 const input = document.getElementById('input');
 const [grid] = document.getElementsByClassName('grid');
@@ -93,7 +92,6 @@ async function moreLoadImg (people) {
         grid.appendChild(imageNodes[i]);
       }
     });
-    
 }
 
 window.addEventListener('scroll', async () => {
