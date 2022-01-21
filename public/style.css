@@ -75,10 +75,16 @@ input:focus {
   align-items: flex-start;
 }
 
-.img {
+.img{
   margin: 5px;
-
+  transition: 1s;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
 }
+.img:hover{
+  border: 2px solid rgba(6, 228, 6, 0.7);
+  transform: scale(1.12);
+}
+
 
 footer {
   text-align: center;
@@ -86,9 +92,15 @@ footer {
 }
 
 @media(max-width: 768px) {
-  .img {
-    width: 100%;
+  .img{
+    margin: 5px;
+    transition: 1s;
+    box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
   }
+  .img:hover{
+    border: 2px solid rgba(6, 228, 6, 0.7);
+    transform: scale(1.12);
+  }  
   .nav {
     justify-content: center;
   }
