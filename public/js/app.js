@@ -1,5 +1,5 @@
 import YOU_KEY_API from "./keyAPI.js"
-//import pixelsView from "./pixelsView.js";
+
 
 // pixelsView.setImages();
 
