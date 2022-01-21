@@ -1,5 +1,11 @@
 # public
-public/keyAPI.js
+public/js/key.js
+public/js/favorites.js
+public/js/main.js
+public/js/pixelsAPI.js
+public/js/pixelsView.js
+
+
 
 
 # Logs
