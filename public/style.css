@@ -82,6 +82,12 @@ input:focus {
   margin: 5px;
   background-position: 50% 50%;
   background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+footer {
+  text-align: center;
+  margin: 50px;
 }
 
 @media(max-width: 768px) {
